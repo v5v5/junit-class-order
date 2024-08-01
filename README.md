@@ -1,4 +1,4 @@
-
+# Чтобы запускать классы тестов ы нужном порядке, в зависимости от их названия, нуэно сделать два шага:
 # Создать класс
 
 ```
@@ -47,7 +47,7 @@ public class ClassOrder implements ClassOrderer {
 }
 ```
 
-# в файле junit-platform.properties указать
+# В файле junit-platform.properties указать
 ```
 junit.jupiter.testclass.order.default=org.my_org.class_order.ClassOrder
 ```
