@@ -1,7 +1,8 @@
 
 # Создать класс
 
-package ru.itasystems.monsys.tests.rus_sports_fee;
+```
+package org.my_org.class_order;
 
 import org.junit.jupiter.api.ClassDescriptor;
 import org.junit.jupiter.api.ClassOrderer;
@@ -44,8 +45,11 @@ public class ClassOrder implements ClassOrderer {
         );
     }
 }
+```
 
 # в файле junit-platform.properties указать
-junit.jupiter.testclass.order.default=ru.itasystems.monsys.tests.rus_sports_fee.ClassOrder
+```
+junit.jupiter.testclass.order.default=org.my_org.class_order.ClassOrder
+```
 
 
